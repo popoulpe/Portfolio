@@ -297,6 +297,7 @@ body{
 .contact__copy {
     color: rgb(95, 175, 125);
     margin-right: 10px;
+    cursor: copy;
 }
 
 .contact__copy--btn {
