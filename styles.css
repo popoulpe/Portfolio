@@ -130,7 +130,7 @@ body{
 .main__buttonText{
     text-decoration: none;
     font-size: 1.3rem;
-    color: #131313;
+    color: rgb(19, 19, 19);
 }
 
 .main__buttonText:hover{
@@ -232,7 +232,7 @@ body{
 }
 
 .content__buttonText:hover{
-    color:aliceblue;
+    color:rgb(240, 248, 255);
     transition: all 0.2s ease;
 }
 
@@ -258,12 +258,13 @@ body{
 .content__end{
     margin-left: auto;
     margin-left: auto;
-    text-align: center;
+    text-align: left;
 }
 
 .content__seeMore{
     color: rgb(95, 175, 125);
     font-size: 1.5rem;
+    margin-left:0%;
 }
 
 .content__seeMore:hover{
@@ -280,8 +281,8 @@ body{
 
 .contact__container {
     list-style-type: none;
-    align-items: left;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
 
 }
 
