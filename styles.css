@@ -164,23 +164,13 @@ body{
     text-align: right;
 }
 
-.intro__para {
-    color:aliceblue;
-    font-size: 1.3rem;
-    word-wrap: break-word;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 60px;
-}
 
 /* Section Content */
 
 .content{
     display: flex;
     margin-left: 15%;
+    margin-right: 15%;
 }
 
 .content__container{
@@ -189,42 +179,52 @@ body{
     justify-content: left;
 }
 
-.content__articleLeft+.content__articleLeft{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.content__articleLeft+.content__articleRight{
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
-
 .content__articleLeft{
     display: grid;
     grid-template-columns: 25% 75%;
     column-gap: 20px;
-    height: 450px;
+    width: 100%;
+    height: 250px;
     justify-content: center;
     margin-left: 0;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.content__articleRight{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    column-gap: 20px;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    margin-right: 20%;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .content__img--card{
-    width: 100%;
-    height: 60%;
+    width: 270px;
+    height: 100%;
+    display: block;
     object-fit: cover;
     object-position: center;
 }
 
 .content__button{
-    margin-top: 25px;
-    margin-left: 20px;
     margin-right: 60px;
     position: relative;
     bottom: 0;
-    background-color:rgb(95, 175, 125);
-    height: 50px;
-    width: 80px;
+    background-color:rgba(95, 175, 126, 0);
     border: none;
-    border-radius: 5px;
 }
 
 .content__buttonText{
-    color:rgb(19, 19, 19);
+    color:rgb(95, 175, 125);
     text-decoration: none;
     font-size: 1.1rem;
 
@@ -237,19 +237,36 @@ body{
 
 .content__desc{
     color:aliceblue;
-    width: 90%;
+    width: 100%;
     height: 100%;
 }
 
-.content__title{
+.content__titleLeft{
     height: 12%;
+    margin-bottom: 3%;
     font-size: 1.6rem;
     text-decoration-line: underline;
 }
 
-.content__text{
+.content__textLeft{
     height: 200px;
-    width: 650px;
+    width: 100%;
+    font-size: 1.2rem;
+}
+.content__titleRight{
+    height: 12%;
+    width: 100%;
+    margin-bottom: 3%;
+    font-size: 1.6rem;
+    text-decoration-line: underline;
+    text-align: right;
+}
+
+.content__textRight{
+    text-align: right;
+    object-position: 100%;
+    height: 200px;
+    width: 100%;
     font-size: 1.2rem;
 }
 
